@@ -36,6 +36,23 @@ else if (markes >= 50) {
 else if (markes >= 40) {
     console.log('Grad D')
 }
-else if (markes <= 39) {
-    console.log('Grad F')
+else{
+    // console.log('Grad F')
+}
+
+
+// Porblem-3.1
+
+var num1 = 130;
+var num2 = 790;
+var num3 = 4000;
+
+if (num1 > num2 && num1 > num3) {
+    // console.log(num1);
+}
+else if (num2 > num1 && num2 > num3) {
+    // console.log(num2);
+}
+else {
+    // console.log(num3);
 }
