@@ -56,3 +56,14 @@ else if (num2 > num1 && num2 > num3) {
 else {
     // console.log(num3);
 }
+
+
+// Probelm-3.2
+
+var side1 = 8;
+var side2 = 9;
+var side3 = 9;
+
+if (side1 == side2 || side1 == side3 || side2 == side3) {
+    console.log("Isosceles");
+}
